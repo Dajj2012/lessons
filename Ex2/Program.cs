@@ -1,0 +1,12 @@
+﻿Console.Clear();
+Console.WriteLine("Введите число один");
+int n =  int.Parse(Console.ReadLine());
+Console.WriteLine("Введите число два");
+int m =  int.Parse(Console.ReadLine());
+Console.WriteLine("Введите число три");
+int t =  int.Parse(Console.ReadLine());
+int max =n;
+if (m>max) max=m;
+if (t>max) max=t;
+Console.Write("Максимум равен ");
+Console.WriteLine(max);
